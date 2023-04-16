@@ -1,2 +1,2 @@
 UC1 :-  Ability to create a Address Book Service DB
-sql-->>   create database addressBook;
+sql---> create database Addressbook;
