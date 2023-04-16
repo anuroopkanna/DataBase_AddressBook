@@ -13,3 +13,6 @@ sql--->  insert into Addressbook(first_name,last_name,address,city,state,zip,pho
          ("Suhasini","Priya","White field","bengaluru","Ka",400736,9878675431,"suhasinipriya@gmail.com"),
          ("Suzen","Thomson","washington st","Newyork","Newyork",57839,1247437845,"suzenthomson@gmail.com");
          select*from Addressbook;
+UC4 :- Ability to edit existing contact person using their name
+update addressBook set phone_number=999999999 where first_name ="Lohith";
+
