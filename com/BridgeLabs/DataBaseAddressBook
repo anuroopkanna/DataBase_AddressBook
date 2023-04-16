@@ -18,4 +18,6 @@ sql--> update addressBook set phone_number=999999999 where first_name ="Lohith";
 UC 5:-Ability to delete a person using person's name
 sql--> delete from addressbook where first_name="Anuroop";
 UC 6 :-Ability to Retrieve Person belonging to a City or State from the Address Book
+sql--> select city ,state from addressbook where first_name="Divya";
+UC 7: - Ability to understand the size of address book by City and State
 sql--> select count(city),count(state) from addressBook where city ="hyd" and state="Ts";
