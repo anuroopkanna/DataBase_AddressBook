@@ -5,3 +5,11 @@ use addressBook;
 sql--> create table Addressbook(first_name varchar(30) not null,
        last_name varchar(30) not null, address varchar(45),city varchar(30),
        state varchar(30),zip int, phone_number long, email varchar(50));
+UC 3: Ability to insert new Contacts to Address Book
+sql--->  insert into Addressbook(first_name,last_name,address,city,state,zip,phone_number,email)
+         values ("Lohith","Kumar","HMT hills","Hyd","Ts",500089,9987654321,"lohithkumar@gmail.com"),
+         ("Anuroop","Kannaiah","kphb","Hyd","Ts",500090,982938475,"anuroopkannaiah@gmail.com"),
+         ("Divya","Chowdary","Hunter road","Warangal","Ts",500921,8479284123,"divyachowdary@gmail.cpm"),
+         ("Suhasini","Priya","White field","bengaluru","Ka",400736,9878675431,"suhasinipriya@gmail.com"),
+         ("Suzen","Thomson","washington st","Newyork","Newyork",57839,1247437845,"suzenthomson@gmail.com");
+         select*from Addressbook;
