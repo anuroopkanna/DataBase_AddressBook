@@ -33,3 +33,6 @@ sql--> alter table addressbook add address_book_name varchar(20) after last_name
        update addressbook set address_book_name="Work",type="Profession"
        where first_name in("Suzen");
        select*from Addressbook;
+UC 10 : Ability to get number of contact persons i.e. count by type
+select count(type) from addressbook where type="Family";
+select count(type) from addressbook where type="Friend";
