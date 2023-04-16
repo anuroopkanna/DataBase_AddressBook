@@ -21,3 +21,5 @@ UC 6 :-Ability to Retrieve Person belonging to a City or State from the Address 
 sql--> select city ,state from addressbook where first_name="Divya";
 UC 7: - Ability to understand the size of address book by City and State
 sql--> select count(city),count(state) from addressBook where city ="hyd" and state="Ts";
+UC 8:- Ability to retrieve entries sorted alphabetically by Person’s name for a given city
+sql--> select first_name from addressbook where city="hyd" order by first_name asc;
