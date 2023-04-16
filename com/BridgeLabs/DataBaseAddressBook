@@ -36,3 +36,7 @@ sql--> alter table addressbook add address_book_name varchar(20) after last_name
 UC 10 : Ability to get number of contact persons i.e. count by type
 select count(type) from addressbook where type="Family";
 select count(type) from addressbook where type="Friend";
+insert into addressbook(first_name,last_name,address_book_name,type,address,city,state,zip,phone_number,email)
+values("Dinesh","Kumar","Relation","Family","limgampali","hyd","Ts",500095,9873648382,"dinesh@gmail.com"),
+("Swathi","Kumari","Bond","Friend","Gandhichowk","kmm","Ts",500065,9873643452,"swathi@gmail.com");
+select*from addressbook;
