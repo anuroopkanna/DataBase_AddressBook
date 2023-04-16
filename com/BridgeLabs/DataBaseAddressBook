@@ -14,5 +14,6 @@ sql--->  insert into Addressbook(first_name,last_name,address,city,state,zip,pho
          ("Suzen","Thomson","washington st","Newyork","Newyork",57839,1247437845,"suzenthomson@gmail.com");
          select*from Addressbook;
 UC4 :- Ability to edit existing contact person using their name
-update addressBook set phone_number=999999999 where first_name ="Lohith";
-
+sql-->update addressBook set phone_number=999999999 where first_name ="Lohith";
+UC 5:-Ability to delete a person using person's name
+sql-->delete from addressbook where first_name="Anuroop";
