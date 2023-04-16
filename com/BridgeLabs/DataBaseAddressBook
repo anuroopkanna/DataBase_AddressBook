@@ -13,7 +13,9 @@ sql--->  insert into Addressbook(first_name,last_name,address,city,state,zip,pho
          ("Suhasini","Priya","White field","bengaluru","Ka",400736,9878675431,"suhasinipriya@gmail.com"),
          ("Suzen","Thomson","washington st","Newyork","Newyork",57839,1247437845,"suzenthomson@gmail.com");
          select*from Addressbook;
-UC4 :- Ability to edit existing contact person using their name
-sql-->update addressBook set phone_number=999999999 where first_name ="Lohith";
+UC 4 :- Ability to edit existing contact person using their name
+sql--> update addressBook set phone_number=999999999 where first_name ="Lohith";
 UC 5:-Ability to delete a person using person's name
-sql-->delete from addressbook where first_name="Anuroop";
+sql--> delete from addressbook where first_name="Anuroop";
+UC 6 :-Ability to Retrieve Person belonging to a City or State from the Address Book
+sql--> select count(city),count(state) from addressBook where city ="hyd" and state="Ts";
